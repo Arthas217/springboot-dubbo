@@ -15,6 +15,9 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    /**
+     * http://localhost:8081/user/ticket
+     */
     @GetMapping("/user/ticket")
     public String testUser() {
         userService.userTicket();
