@@ -18,5 +18,4 @@ public class UserService {
         String ticket = ticketService.getTicket();
         System.out.println("买到票了:" + ticket);
     }
-
 }
